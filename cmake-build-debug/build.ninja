@@ -163,39 +163,6 @@ build Map/rebuild_cache: phony Map/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Init_map
-
-
-#############################################
-# Order-only phony target for Init_map
-
-build cmake_object_order_depends_target_Init_map: phony || Vector/CMakeFiles/Init_map.dir
-
-build Vector/CMakeFiles/Init_map.dir/Init.cpp.obj: CXX_COMPILER__Init_map_unscanned_Debug D$:/Clion/Vector/Init.cpp || cmake_object_order_depends_target_Init_map
-  DEP_FILE = Vector\CMakeFiles\Init_map.dir\Init.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = Vector\CMakeFiles\Init_map.dir
-  OBJECT_FILE_DIR = Vector\CMakeFiles\Init_map.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Init_map
-
-
-#############################################
-# Link the executable Vector\Init_map.exe
-
-build Vector/Init_map.exe: CXX_EXECUTABLE_LINKER__Init_map_Debug Vector/CMakeFiles/Init_map.dir/Init.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = Vector\CMakeFiles\Init_map.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Vector\Init_map.exe
-  TARGET_IMPLIB = Vector\libInit_map.dll.a
-  TARGET_PDB = Init_map.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target erase_map
 
 
@@ -327,6 +294,39 @@ build Vector/push_pop_map.exe: CXX_EXECUTABLE_LINKER__push_pop_map_Debug Vector/
   TARGET_IMPLIB = Vector\libpush_pop_map.dll.a
   TARGET_PDB = push_pop_map.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_init_map
+
+
+#############################################
+# Order-only phony target for vector_init_map
+
+build cmake_object_order_depends_target_vector_init_map: phony || Vector/CMakeFiles/vector_init_map.dir
+
+build Vector/CMakeFiles/vector_init_map.dir/vector_init.cpp.obj: CXX_COMPILER__vector_init_map_unscanned_Debug D$:/Clion/Vector/vector_init.cpp || cmake_object_order_depends_target_vector_init_map
+  DEP_FILE = Vector\CMakeFiles\vector_init_map.dir\vector_init.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Vector\CMakeFiles\vector_init_map.dir
+  OBJECT_FILE_DIR = Vector\CMakeFiles\vector_init_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_init_map
+
+
+#############################################
+# Link the executable Vector\vector_init_map.exe
+
+build Vector/vector_init_map.exe: CXX_EXECUTABLE_LINKER__vector_init_map_Debug Vector/CMakeFiles/vector_init_map.dir/vector_init.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Vector\CMakeFiles\vector_init_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Vector\vector_init_map.exe
+  TARGET_IMPLIB = Vector\libvector_init_map.dll.a
+  TARGET_PDB = vector_init_map.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -355,6 +355,72 @@ build Vector/rebuild_cache: phony Vector/CMakeFiles/rebuild_cache.util
 # D:/Clion/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target init_queue_map
+
+
+#############################################
+# Order-only phony target for init_queue_map
+
+build cmake_object_order_depends_target_init_queue_map: phony || Queue/CMakeFiles/init_queue_map.dir
+
+build Queue/CMakeFiles/init_queue_map.dir/init_queue.cpp.obj: CXX_COMPILER__init_queue_map_unscanned_Debug D$:/Clion/Queue/init_queue.cpp || cmake_object_order_depends_target_init_queue_map
+  DEP_FILE = Queue\CMakeFiles\init_queue_map.dir\init_queue.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Queue\CMakeFiles\init_queue_map.dir
+  OBJECT_FILE_DIR = Queue\CMakeFiles\init_queue_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target init_queue_map
+
+
+#############################################
+# Link the executable Queue\init_queue_map.exe
+
+build Queue/init_queue_map.exe: CXX_EXECUTABLE_LINKER__init_queue_map_Debug Queue/CMakeFiles/init_queue_map.dir/init_queue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Queue\CMakeFiles\init_queue_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Queue\init_queue_map.exe
+  TARGET_IMPLIB = Queue\libinit_queue_map.dll.a
+  TARGET_PDB = init_queue_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target queue_map
+
+
+#############################################
+# Order-only phony target for queue_map
+
+build cmake_object_order_depends_target_queue_map: phony || Queue/CMakeFiles/queue_map.dir
+
+build Queue/CMakeFiles/queue_map.dir/queue.cpp.obj: CXX_COMPILER__queue_map_unscanned_Debug D$:/Clion/Queue/queue.cpp || cmake_object_order_depends_target_queue_map
+  DEP_FILE = Queue\CMakeFiles\queue_map.dir\queue.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Queue\CMakeFiles\queue_map.dir
+  OBJECT_FILE_DIR = Queue\CMakeFiles\queue_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queue_map
+
+
+#############################################
+# Link the executable Queue\queue_map.exe
+
+build Queue/queue_map.exe: CXX_EXECUTABLE_LINKER__queue_map_Debug Queue/CMakeFiles/queue_map.dir/queue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Queue\CMakeFiles\queue_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Queue\queue_map.exe
+  TARGET_IMPLIB = Queue\libqueue_map.dll.a
+  TARGET_PDB = queue_map.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -379,6 +445,895 @@ build Queue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Queue/rebuild_cache: phony Queue/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair_init_map
+
+
+#############################################
+# Order-only phony target for pair_init_map
+
+build cmake_object_order_depends_target_pair_init_map: phony || Pair/CMakeFiles/pair_init_map.dir
+
+build Pair/CMakeFiles/pair_init_map.dir/pair_init.cpp.obj: CXX_COMPILER__pair_init_map_unscanned_Debug D$:/Clion/Pair/pair_init.cpp || cmake_object_order_depends_target_pair_init_map
+  DEP_FILE = Pair\CMakeFiles\pair_init_map.dir\pair_init.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Pair\CMakeFiles\pair_init_map.dir
+  OBJECT_FILE_DIR = Pair\CMakeFiles\pair_init_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair_init_map
+
+
+#############################################
+# Link the executable Pair\pair_init_map.exe
+
+build Pair/pair_init_map.exe: CXX_EXECUTABLE_LINKER__pair_init_map_Debug Pair/CMakeFiles/pair_init_map.dir/pair_init.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Pair\CMakeFiles\pair_init_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pair\pair_init_map.exe
+  TARGET_IMPLIB = Pair\libpair_init_map.dll.a
+  TARGET_PDB = pair_init_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Pair/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Pair && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Pair/edit_cache: phony Pair/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Pair/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Pair && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Pair/rebuild_cache: phony Pair/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target operator_map
+
+
+#############################################
+# Order-only phony target for operator_map
+
+build cmake_object_order_depends_target_operator_map: phony || String/CMakeFiles/operator_map.dir
+
+build String/CMakeFiles/operator_map.dir/operator.cpp.obj: CXX_COMPILER__operator_map_unscanned_Debug D$:/Clion/String/operator.cpp || cmake_object_order_depends_target_operator_map
+  DEP_FILE = String\CMakeFiles\operator_map.dir\operator.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\operator_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\operator_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target operator_map
+
+
+#############################################
+# Link the executable String\operator_map.exe
+
+build String/operator_map.exe: CXX_EXECUTABLE_LINKER__operator_map_Debug String/CMakeFiles/operator_map.dir/operator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\operator_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\operator_map.exe
+  TARGET_IMPLIB = String\liboperator_map.dll.a
+  TARGET_PDB = operator_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target st_erase_map
+
+
+#############################################
+# Order-only phony target for st_erase_map
+
+build cmake_object_order_depends_target_st_erase_map: phony || String/CMakeFiles/st_erase_map.dir
+
+build String/CMakeFiles/st_erase_map.dir/st_erase.cpp.obj: CXX_COMPILER__st_erase_map_unscanned_Debug D$:/Clion/String/st_erase.cpp || cmake_object_order_depends_target_st_erase_map
+  DEP_FILE = String\CMakeFiles\st_erase_map.dir\st_erase.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\st_erase_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\st_erase_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target st_erase_map
+
+
+#############################################
+# Link the executable String\st_erase_map.exe
+
+build String/st_erase_map.exe: CXX_EXECUTABLE_LINKER__st_erase_map_Debug String/CMakeFiles/st_erase_map.dir/st_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\st_erase_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\st_erase_map.exe
+  TARGET_IMPLIB = String\libst_erase_map.dll.a
+  TARGET_PDB = st_erase_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target st_insert_map
+
+
+#############################################
+# Order-only phony target for st_insert_map
+
+build cmake_object_order_depends_target_st_insert_map: phony || String/CMakeFiles/st_insert_map.dir
+
+build String/CMakeFiles/st_insert_map.dir/st_insert.cpp.obj: CXX_COMPILER__st_insert_map_unscanned_Debug D$:/Clion/String/st_insert.cpp || cmake_object_order_depends_target_st_insert_map
+  DEP_FILE = String\CMakeFiles\st_insert_map.dir\st_insert.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\st_insert_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\st_insert_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target st_insert_map
+
+
+#############################################
+# Link the executable String\st_insert_map.exe
+
+build String/st_insert_map.exe: CXX_EXECUTABLE_LINKER__st_insert_map_Debug String/CMakeFiles/st_insert_map.dir/st_insert.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\st_insert_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\st_insert_map.exe
+  TARGET_IMPLIB = String\libst_insert_map.dll.a
+  TARGET_PDB = st_insert_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target st_substr_map
+
+
+#############################################
+# Order-only phony target for st_substr_map
+
+build cmake_object_order_depends_target_st_substr_map: phony || String/CMakeFiles/st_substr_map.dir
+
+build String/CMakeFiles/st_substr_map.dir/st_substr.cpp.obj: CXX_COMPILER__st_substr_map_unscanned_Debug D$:/Clion/String/st_substr.cpp || cmake_object_order_depends_target_st_substr_map
+  DEP_FILE = String\CMakeFiles\st_substr_map.dir\st_substr.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\st_substr_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\st_substr_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target st_substr_map
+
+
+#############################################
+# Link the executable String\st_substr_map.exe
+
+build String/st_substr_map.exe: CXX_EXECUTABLE_LINKER__st_substr_map_Debug String/CMakeFiles/st_substr_map.dir/st_substr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\st_substr_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\st_substr_map.exe
+  TARGET_IMPLIB = String\libst_substr_map.dll.a
+  TARGET_PDB = st_substr_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target str_find_map
+
+
+#############################################
+# Order-only phony target for str_find_map
+
+build cmake_object_order_depends_target_str_find_map: phony || String/CMakeFiles/str_find_map.dir
+
+build String/CMakeFiles/str_find_map.dir/str_find.cpp.obj: CXX_COMPILER__str_find_map_unscanned_Debug D$:/Clion/String/str_find.cpp || cmake_object_order_depends_target_str_find_map
+  DEP_FILE = String\CMakeFiles\str_find_map.dir\str_find.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\str_find_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\str_find_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target str_find_map
+
+
+#############################################
+# Link the executable String\str_find_map.exe
+
+build String/str_find_map.exe: CXX_EXECUTABLE_LINKER__str_find_map_Debug String/CMakeFiles/str_find_map.dir/str_find.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\str_find_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\str_find_map.exe
+  TARGET_IMPLIB = String\libstr_find_map.dll.a
+  TARGET_PDB = str_find_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target str_replace_map
+
+
+#############################################
+# Order-only phony target for str_replace_map
+
+build cmake_object_order_depends_target_str_replace_map: phony || String/CMakeFiles/str_replace_map.dir
+
+build String/CMakeFiles/str_replace_map.dir/str_replace.cpp.obj: CXX_COMPILER__str_replace_map_unscanned_Debug D$:/Clion/String/str_replace.cpp || cmake_object_order_depends_target_str_replace_map
+  DEP_FILE = String\CMakeFiles\str_replace_map.dir\str_replace.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = String\CMakeFiles\str_replace_map.dir
+  OBJECT_FILE_DIR = String\CMakeFiles\str_replace_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target str_replace_map
+
+
+#############################################
+# Link the executable String\str_replace_map.exe
+
+build String/str_replace_map.exe: CXX_EXECUTABLE_LINKER__str_replace_map_Debug String/CMakeFiles/str_replace_map.dir/str_replace.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = String\CMakeFiles\str_replace_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String\str_replace_map.exe
+  TARGET_IMPLIB = String\libstr_replace_map.dll.a
+  TARGET_PDB = str_replace_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build String/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\String && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build String/edit_cache: phony String/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build String/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\String && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build String/rebuild_cache: phony String/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_map
+
+
+#############################################
+# Order-only phony target for find_map
+
+build cmake_object_order_depends_target_find_map: phony || Set/CMakeFiles/find_map.dir
+
+build Set/CMakeFiles/find_map.dir/find.cpp.obj: CXX_COMPILER__find_map_unscanned_Debug D$:/Clion/Set/find.cpp || cmake_object_order_depends_target_find_map
+  DEP_FILE = Set\CMakeFiles\find_map.dir\find.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Set\CMakeFiles\find_map.dir
+  OBJECT_FILE_DIR = Set\CMakeFiles\find_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_map
+
+
+#############################################
+# Link the executable Set\find_map.exe
+
+build Set/find_map.exe: CXX_EXECUTABLE_LINKER__find_map_Debug Set/CMakeFiles/find_map.dir/find.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Set\CMakeFiles\find_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Set\find_map.exe
+  TARGET_IMPLIB = Set\libfind_map.dll.a
+  TARGET_PDB = find_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_erase_map
+
+
+#############################################
+# Order-only phony target for set_erase_map
+
+build cmake_object_order_depends_target_set_erase_map: phony || Set/CMakeFiles/set_erase_map.dir
+
+build Set/CMakeFiles/set_erase_map.dir/set_erase.cpp.obj: CXX_COMPILER__set_erase_map_unscanned_Debug D$:/Clion/Set/set_erase.cpp || cmake_object_order_depends_target_set_erase_map
+  DEP_FILE = Set\CMakeFiles\set_erase_map.dir\set_erase.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Set\CMakeFiles\set_erase_map.dir
+  OBJECT_FILE_DIR = Set\CMakeFiles\set_erase_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_erase_map
+
+
+#############################################
+# Link the executable Set\set_erase_map.exe
+
+build Set/set_erase_map.exe: CXX_EXECUTABLE_LINKER__set_erase_map_Debug Set/CMakeFiles/set_erase_map.dir/set_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Set\CMakeFiles\set_erase_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Set\set_erase_map.exe
+  TARGET_IMPLIB = Set\libset_erase_map.dll.a
+  TARGET_PDB = set_erase_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_init_map
+
+
+#############################################
+# Order-only phony target for set_init_map
+
+build cmake_object_order_depends_target_set_init_map: phony || Set/CMakeFiles/set_init_map.dir
+
+build Set/CMakeFiles/set_init_map.dir/set_init.cpp.obj: CXX_COMPILER__set_init_map_unscanned_Debug D$:/Clion/Set/set_init.cpp || cmake_object_order_depends_target_set_init_map
+  DEP_FILE = Set\CMakeFiles\set_init_map.dir\set_init.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Set\CMakeFiles\set_init_map.dir
+  OBJECT_FILE_DIR = Set\CMakeFiles\set_init_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_init_map
+
+
+#############################################
+# Link the executable Set\set_init_map.exe
+
+build Set/set_init_map.exe: CXX_EXECUTABLE_LINKER__set_init_map_Debug Set/CMakeFiles/set_init_map.dir/set_init.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Set\CMakeFiles\set_init_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Set\set_init_map.exe
+  TARGET_IMPLIB = Set\libset_init_map.dll.a
+  TARGET_PDB = set_init_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Set/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Set && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Set/edit_cache: phony Set/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Set/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Set && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Set/rebuild_cache: phony Set/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target init_stack_map
+
+
+#############################################
+# Order-only phony target for init_stack_map
+
+build cmake_object_order_depends_target_init_stack_map: phony || Stack/CMakeFiles/init_stack_map.dir
+
+build Stack/CMakeFiles/init_stack_map.dir/init_stack.cpp.obj: CXX_COMPILER__init_stack_map_unscanned_Debug D$:/Clion/Stack/init_stack.cpp || cmake_object_order_depends_target_init_stack_map
+  DEP_FILE = Stack\CMakeFiles\init_stack_map.dir\init_stack.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Stack\CMakeFiles\init_stack_map.dir
+  OBJECT_FILE_DIR = Stack\CMakeFiles\init_stack_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target init_stack_map
+
+
+#############################################
+# Link the executable Stack\init_stack_map.exe
+
+build Stack/init_stack_map.exe: CXX_EXECUTABLE_LINKER__init_stack_map_Debug Stack/CMakeFiles/init_stack_map.dir/init_stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Stack\CMakeFiles\init_stack_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stack\init_stack_map.exe
+  TARGET_IMPLIB = Stack\libinit_stack_map.dll.a
+  TARGET_PDB = init_stack_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Stack && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Stack/edit_cache: phony Stack/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\Stack && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Stack/rebuild_cache: phony Stack/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target next_permutation_map
+
+
+#############################################
+# Order-only phony target for next_permutation_map
+
+build cmake_object_order_depends_target_next_permutation_map: phony || algorithm/CMakeFiles/next_permutation_map.dir
+
+build algorithm/CMakeFiles/next_permutation_map.dir/next_permutation.cpp.obj: CXX_COMPILER__next_permutation_map_unscanned_Debug D$:/Clion/algorithm/next_permutation.cpp || cmake_object_order_depends_target_next_permutation_map
+  DEP_FILE = algorithm\CMakeFiles\next_permutation_map.dir\next_permutation.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = algorithm\CMakeFiles\next_permutation_map.dir
+  OBJECT_FILE_DIR = algorithm\CMakeFiles\next_permutation_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target next_permutation_map
+
+
+#############################################
+# Link the executable algorithm\next_permutation_map.exe
+
+build algorithm/next_permutation_map.exe: CXX_EXECUTABLE_LINKER__next_permutation_map_Debug algorithm/CMakeFiles/next_permutation_map.dir/next_permutation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = algorithm\CMakeFiles\next_permutation_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = algorithm\next_permutation_map.exe
+  TARGET_IMPLIB = algorithm\libnext_permutation_map.dll.a
+  TARGET_PDB = next_permutation_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target reverse_map
+
+
+#############################################
+# Order-only phony target for reverse_map
+
+build cmake_object_order_depends_target_reverse_map: phony || algorithm/CMakeFiles/reverse_map.dir
+
+build algorithm/CMakeFiles/reverse_map.dir/reverse.cpp.obj: CXX_COMPILER__reverse_map_unscanned_Debug D$:/Clion/algorithm/reverse.cpp || cmake_object_order_depends_target_reverse_map
+  DEP_FILE = algorithm\CMakeFiles\reverse_map.dir\reverse.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = algorithm\CMakeFiles\reverse_map.dir
+  OBJECT_FILE_DIR = algorithm\CMakeFiles\reverse_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reverse_map
+
+
+#############################################
+# Link the executable algorithm\reverse_map.exe
+
+build algorithm/reverse_map.exe: CXX_EXECUTABLE_LINKER__reverse_map_Debug algorithm/CMakeFiles/reverse_map.dir/reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = algorithm\CMakeFiles\reverse_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = algorithm\reverse_map.exe
+  TARGET_IMPLIB = algorithm\libreverse_map.dll.a
+  TARGET_PDB = reverse_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build algorithm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\algorithm && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build algorithm/edit_cache: phony algorithm/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build algorithm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\algorithm && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build algorithm/rebuild_cache: phony algorithm/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build PTA/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\PTA && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build PTA/edit_cache: phony PTA/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build PTA/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\PTA && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build PTA/rebuild_cache: phony PTA/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Clion/PTA/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PTA_B1001_map
+
+
+#############################################
+# Order-only phony target for PTA_B1001_map
+
+build cmake_object_order_depends_target_PTA_B1001_map: phony || PTA/sec1/CMakeFiles/PTA_B1001_map.dir
+
+build PTA/sec1/CMakeFiles/PTA_B1001_map.dir/PTA_B1001.cpp.obj: CXX_COMPILER__PTA_B1001_map_unscanned_Debug D$:/Clion/PTA/sec1/PTA_B1001.cpp || cmake_object_order_depends_target_PTA_B1001_map
+  DEP_FILE = PTA\sec1\CMakeFiles\PTA_B1001_map.dir\PTA_B1001.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1001_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\PTA_B1001_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PTA_B1001_map
+
+
+#############################################
+# Link the executable PTA\sec1\PTA_B1001_map.exe
+
+build PTA/sec1/PTA_B1001_map.exe: CXX_EXECUTABLE_LINKER__PTA_B1001_map_Debug PTA/sec1/CMakeFiles/PTA_B1001_map.dir/PTA_B1001.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1001_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\PTA_B1001_map.exe
+  TARGET_IMPLIB = PTA\sec1\libPTA_B1001_map.dll.a
+  TARGET_PDB = PTA_B1001_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PTA_B1009_map
+
+
+#############################################
+# Order-only phony target for PTA_B1009_map
+
+build cmake_object_order_depends_target_PTA_B1009_map: phony || PTA/sec1/CMakeFiles/PTA_B1009_map.dir
+
+build PTA/sec1/CMakeFiles/PTA_B1009_map.dir/PTA_B1009.cpp.obj: CXX_COMPILER__PTA_B1009_map_unscanned_Debug D$:/Clion/PTA/sec1/PTA_B1009.cpp || cmake_object_order_depends_target_PTA_B1009_map
+  DEP_FILE = PTA\sec1\CMakeFiles\PTA_B1009_map.dir\PTA_B1009.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1009_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\PTA_B1009_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PTA_B1009_map
+
+
+#############################################
+# Link the executable PTA\sec1\PTA_B1009_map.exe
+
+build PTA/sec1/PTA_B1009_map.exe: CXX_EXECUTABLE_LINKER__PTA_B1009_map_Debug PTA/sec1/CMakeFiles/PTA_B1009_map.dir/PTA_B1009.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1009_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\PTA_B1009_map.exe
+  TARGET_IMPLIB = PTA\sec1\libPTA_B1009_map.dll.a
+  TARGET_PDB = PTA_B1009_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PTA_B1022_map
+
+
+#############################################
+# Order-only phony target for PTA_B1022_map
+
+build cmake_object_order_depends_target_PTA_B1022_map: phony || PTA/sec1/CMakeFiles/PTA_B1022_map.dir
+
+build PTA/sec1/CMakeFiles/PTA_B1022_map.dir/PTA_B1022.cpp.obj: CXX_COMPILER__PTA_B1022_map_unscanned_Debug D$:/Clion/PTA/sec1/PTA_B1022.cpp || cmake_object_order_depends_target_PTA_B1022_map
+  DEP_FILE = PTA\sec1\CMakeFiles\PTA_B1022_map.dir\PTA_B1022.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1022_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\PTA_B1022_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PTA_B1022_map
+
+
+#############################################
+# Link the executable PTA\sec1\PTA_B1022_map.exe
+
+build PTA/sec1/PTA_B1022_map.exe: CXX_EXECUTABLE_LINKER__PTA_B1022_map_Debug PTA/sec1/CMakeFiles/PTA_B1022_map.dir/PTA_B1022.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1022_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\PTA_B1022_map.exe
+  TARGET_IMPLIB = PTA\sec1\libPTA_B1022_map.dll.a
+  TARGET_PDB = PTA_B1022_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PTA_B1032_map
+
+
+#############################################
+# Order-only phony target for PTA_B1032_map
+
+build cmake_object_order_depends_target_PTA_B1032_map: phony || PTA/sec1/CMakeFiles/PTA_B1032_map.dir
+
+build PTA/sec1/CMakeFiles/PTA_B1032_map.dir/PTA_B1032.cpp.obj: CXX_COMPILER__PTA_B1032_map_unscanned_Debug D$:/Clion/PTA/sec1/PTA_B1032.cpp || cmake_object_order_depends_target_PTA_B1032_map
+  DEP_FILE = PTA\sec1\CMakeFiles\PTA_B1032_map.dir\PTA_B1032.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1032_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\PTA_B1032_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PTA_B1032_map
+
+
+#############################################
+# Link the executable PTA\sec1\PTA_B1032_map.exe
+
+build PTA/sec1/PTA_B1032_map.exe: CXX_EXECUTABLE_LINKER__PTA_B1032_map_Debug PTA/sec1/CMakeFiles/PTA_B1032_map.dir/PTA_B1032.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1032_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\PTA_B1032_map.exe
+  TARGET_IMPLIB = PTA\sec1\libPTA_B1032_map.dll.a
+  TARGET_PDB = PTA_B1032_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PTA_B1036_map
+
+
+#############################################
+# Order-only phony target for PTA_B1036_map
+
+build cmake_object_order_depends_target_PTA_B1036_map: phony || PTA/sec1/CMakeFiles/PTA_B1036_map.dir
+
+build PTA/sec1/CMakeFiles/PTA_B1036_map.dir/PTA_B1036.cpp.obj: CXX_COMPILER__PTA_B1036_map_unscanned_Debug D$:/Clion/PTA/sec1/PTA_B1036.cpp || cmake_object_order_depends_target_PTA_B1036_map
+  DEP_FILE = PTA\sec1\CMakeFiles\PTA_B1036_map.dir\PTA_B1036.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1036_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\PTA_B1036_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PTA_B1036_map
+
+
+#############################################
+# Link the executable PTA\sec1\PTA_B1036_map.exe
+
+build PTA/sec1/PTA_B1036_map.exe: CXX_EXECUTABLE_LINKER__PTA_B1036_map_Debug PTA/sec1/CMakeFiles/PTA_B1036_map.dir/PTA_B1036.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\PTA_B1036_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\PTA_B1036_map.exe
+  TARGET_IMPLIB = PTA\sec1\libPTA_B1036_map.dll.a
+  TARGET_PDB = PTA_B1036_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target codeup_1928_map
+
+
+#############################################
+# Order-only phony target for codeup_1928_map
+
+build cmake_object_order_depends_target_codeup_1928_map: phony || PTA/sec1/CMakeFiles/codeup_1928_map.dir
+
+build PTA/sec1/CMakeFiles/codeup_1928_map.dir/codeup_1928.cpp.obj: CXX_COMPILER__codeup_1928_map_unscanned_Debug D$:/Clion/PTA/sec1/codeup_1928.cpp || cmake_object_order_depends_target_codeup_1928_map
+  DEP_FILE = PTA\sec1\CMakeFiles\codeup_1928_map.dir\codeup_1928.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_1928_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\codeup_1928_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target codeup_1928_map
+
+
+#############################################
+# Link the executable PTA\sec1\codeup_1928_map.exe
+
+build PTA/sec1/codeup_1928_map.exe: CXX_EXECUTABLE_LINKER__codeup_1928_map_Debug PTA/sec1/CMakeFiles/codeup_1928_map.dir/codeup_1928.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_1928_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\codeup_1928_map.exe
+  TARGET_IMPLIB = PTA\sec1\libcodeup_1928_map.dll.a
+  TARGET_PDB = codeup_1928_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target codeup_1934_map
+
+
+#############################################
+# Order-only phony target for codeup_1934_map
+
+build cmake_object_order_depends_target_codeup_1934_map: phony || PTA/sec1/CMakeFiles/codeup_1934_map.dir
+
+build PTA/sec1/CMakeFiles/codeup_1934_map.dir/codeup_1934.cpp.obj: CXX_COMPILER__codeup_1934_map_unscanned_Debug D$:/Clion/PTA/sec1/codeup_1934.cpp || cmake_object_order_depends_target_codeup_1934_map
+  DEP_FILE = PTA\sec1\CMakeFiles\codeup_1934_map.dir\codeup_1934.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_1934_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\codeup_1934_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target codeup_1934_map
+
+
+#############################################
+# Link the executable PTA\sec1\codeup_1934_map.exe
+
+build PTA/sec1/codeup_1934_map.exe: CXX_EXECUTABLE_LINKER__codeup_1934_map_Debug PTA/sec1/CMakeFiles/codeup_1934_map.dir/codeup_1934.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_1934_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\codeup_1934_map.exe
+  TARGET_IMPLIB = PTA\sec1\libcodeup_1934_map.dll.a
+  TARGET_PDB = codeup_1934_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target codeup_5901_map
+
+
+#############################################
+# Order-only phony target for codeup_5901_map
+
+build cmake_object_order_depends_target_codeup_5901_map: phony || PTA/sec1/CMakeFiles/codeup_5901_map.dir
+
+build PTA/sec1/CMakeFiles/codeup_5901_map.dir/codeup_5901.cpp.obj: CXX_COMPILER__codeup_5901_map_unscanned_Debug D$:/Clion/PTA/sec1/codeup_5901.cpp || cmake_object_order_depends_target_codeup_5901_map
+  DEP_FILE = PTA\sec1\CMakeFiles\codeup_5901_map.dir\codeup_5901.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_5901_map.dir
+  OBJECT_FILE_DIR = PTA\sec1\CMakeFiles\codeup_5901_map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target codeup_5901_map
+
+
+#############################################
+# Link the executable PTA\sec1\codeup_5901_map.exe
+
+build PTA/sec1/codeup_5901_map.exe: CXX_EXECUTABLE_LINKER__codeup_5901_map_Debug PTA/sec1/CMakeFiles/codeup_5901_map.dir/codeup_5901.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = PTA\sec1\CMakeFiles\codeup_5901_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PTA\sec1\codeup_5901_map.exe
+  TARGET_IMPLIB = PTA\sec1\libcodeup_5901_map.dll.a
+  TARGET_PDB = codeup_5901_map.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build PTA/sec1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\PTA\sec1 && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build PTA/sec1/edit_cache: phony PTA/sec1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build PTA/sec1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Clion\cmake-build-debug\PTA\sec1 && "D:\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Clion -BD:\Clion\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build PTA/sec1/rebuild_cache: phony PTA/sec1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build Erase_map: phony Map/Erase_map.exe
@@ -389,13 +1344,53 @@ build Find_map: phony Map/Find_map.exe
 
 build Find_map.exe: phony Map/Find_map.exe
 
-build Init_map: phony Vector/Init_map.exe
+build PTA_B1001_map: phony PTA/sec1/PTA_B1001_map.exe
 
-build Init_map.exe: phony Vector/Init_map.exe
+build PTA_B1001_map.exe: phony PTA/sec1/PTA_B1001_map.exe
+
+build PTA_B1009_map: phony PTA/sec1/PTA_B1009_map.exe
+
+build PTA_B1009_map.exe: phony PTA/sec1/PTA_B1009_map.exe
+
+build PTA_B1022_map: phony PTA/sec1/PTA_B1022_map.exe
+
+build PTA_B1022_map.exe: phony PTA/sec1/PTA_B1022_map.exe
+
+build PTA_B1032_map: phony PTA/sec1/PTA_B1032_map.exe
+
+build PTA_B1032_map.exe: phony PTA/sec1/PTA_B1032_map.exe
+
+build PTA_B1036_map: phony PTA/sec1/PTA_B1036_map.exe
+
+build PTA_B1036_map.exe: phony PTA/sec1/PTA_B1036_map.exe
+
+build codeup_1928_map: phony PTA/sec1/codeup_1928_map.exe
+
+build codeup_1928_map.exe: phony PTA/sec1/codeup_1928_map.exe
+
+build codeup_1934_map: phony PTA/sec1/codeup_1934_map.exe
+
+build codeup_1934_map.exe: phony PTA/sec1/codeup_1934_map.exe
+
+build codeup_5901_map: phony PTA/sec1/codeup_5901_map.exe
+
+build codeup_5901_map.exe: phony PTA/sec1/codeup_5901_map.exe
 
 build erase_map: phony Vector/erase_map.exe
 
 build erase_map.exe: phony Vector/erase_map.exe
+
+build find_map: phony Set/find_map.exe
+
+build find_map.exe: phony Set/find_map.exe
+
+build init_queue_map: phony Queue/init_queue_map.exe
+
+build init_queue_map.exe: phony Queue/init_queue_map.exe
+
+build init_stack_map: phony Stack/init_stack_map.exe
+
+build init_stack_map.exe: phony Stack/init_stack_map.exe
 
 build insert_map: phony Vector/insert_map.exe
 
@@ -405,9 +1400,61 @@ build iterator_map: phony Vector/iterator_map.exe
 
 build iterator_map.exe: phony Vector/iterator_map.exe
 
+build next_permutation_map: phony algorithm/next_permutation_map.exe
+
+build next_permutation_map.exe: phony algorithm/next_permutation_map.exe
+
+build operator_map: phony String/operator_map.exe
+
+build operator_map.exe: phony String/operator_map.exe
+
+build pair_init_map: phony Pair/pair_init_map.exe
+
+build pair_init_map.exe: phony Pair/pair_init_map.exe
+
 build push_pop_map: phony Vector/push_pop_map.exe
 
 build push_pop_map.exe: phony Vector/push_pop_map.exe
+
+build queue_map: phony Queue/queue_map.exe
+
+build queue_map.exe: phony Queue/queue_map.exe
+
+build reverse_map: phony algorithm/reverse_map.exe
+
+build reverse_map.exe: phony algorithm/reverse_map.exe
+
+build set_erase_map: phony Set/set_erase_map.exe
+
+build set_erase_map.exe: phony Set/set_erase_map.exe
+
+build set_init_map: phony Set/set_init_map.exe
+
+build set_init_map.exe: phony Set/set_init_map.exe
+
+build st_erase_map: phony String/st_erase_map.exe
+
+build st_erase_map.exe: phony String/st_erase_map.exe
+
+build st_insert_map: phony String/st_insert_map.exe
+
+build st_insert_map.exe: phony String/st_insert_map.exe
+
+build st_substr_map: phony String/st_substr_map.exe
+
+build st_substr_map.exe: phony String/st_substr_map.exe
+
+build str_find_map: phony String/str_find_map.exe
+
+build str_find_map.exe: phony String/str_find_map.exe
+
+build str_replace_map: phony String/str_replace_map.exe
+
+build str_replace_map.exe: phony String/str_replace_map.exe
+
+build vector_init_map: phony Vector/vector_init_map.exe
+
+build vector_init_map.exe: phony Vector/vector_init_map.exe
 
 # =============================================================================
 # Folder targets.
@@ -417,7 +1464,7 @@ build push_pop_map.exe: phony Vector/push_pop_map.exe
 #############################################
 # Folder: D:/Clion/cmake-build-debug
 
-build all: phony Map/all Vector/all Queue/all
+build all: phony Map/all Vector/all Queue/all Pair/all String/all Set/all Stack/all algorithm/all PTA/all
 
 # =============================================================================
 
@@ -429,16 +1476,65 @@ build Map/all: phony Map/Erase_map.exe Map/Find_map.exe
 # =============================================================================
 
 #############################################
+# Folder: D:/Clion/cmake-build-debug/PTA
+
+build PTA/all: phony PTA/sec1/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/PTA/sec1
+
+build PTA/sec1/all: phony PTA/sec1/PTA_B1001_map.exe PTA/sec1/PTA_B1009_map.exe PTA/sec1/PTA_B1022_map.exe PTA/sec1/PTA_B1032_map.exe PTA/sec1/PTA_B1036_map.exe PTA/sec1/codeup_1928_map.exe PTA/sec1/codeup_1934_map.exe PTA/sec1/codeup_5901_map.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/Pair
+
+build Pair/all: phony Pair/pair_init_map.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/Clion/cmake-build-debug/Queue
 
-build Queue/all: phony
+build Queue/all: phony Queue/init_queue_map.exe Queue/queue_map.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/Set
+
+build Set/all: phony Set/find_map.exe Set/set_erase_map.exe Set/set_init_map.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/Stack
+
+build Stack/all: phony Stack/init_stack_map.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/String
+
+build String/all: phony String/operator_map.exe String/st_erase_map.exe String/st_insert_map.exe String/st_substr_map.exe String/str_find_map.exe String/str_replace_map.exe
 
 # =============================================================================
 
 #############################################
 # Folder: D:/Clion/cmake-build-debug/Vector
 
-build Vector/all: phony Vector/Init_map.exe Vector/erase_map.exe Vector/insert_map.exe Vector/iterator_map.exe Vector/push_pop_map.exe
+build Vector/all: phony Vector/erase_map.exe Vector/insert_map.exe Vector/iterator_map.exe Vector/push_pop_map.exe Vector/vector_init_map.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Clion/cmake-build-debug/algorithm
+
+build algorithm/all: phony algorithm/next_permutation_map.exe algorithm/reverse_map.exe
 
 # =============================================================================
 # Built-in targets
@@ -447,14 +1543,14 @@ build Vector/all: phony Vector/Init_map.exe Vector/erase_map.exe Vector/insert_m
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CMakeLists.txt D$:/Clion/Map/CMakeLists.txt D$:/Clion/Queue/CMakeLists.txt D$:/Clion/Vector/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CMakeLists.txt D$:/Clion/Map/CMakeLists.txt D$:/Clion/PTA/CMakeLists.txt D$:/Clion/PTA/sec1/CMakeLists.txt D$:/Clion/Pair/CMakeLists.txt D$:/Clion/Queue/CMakeLists.txt D$:/Clion/Set/CMakeLists.txt D$:/Clion/Stack/CMakeLists.txt D$:/Clion/String/CMakeLists.txt D$:/Clion/Vector/CMakeLists.txt D$:/Clion/algorithm/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CMakeLists.txt D$:/Clion/Map/CMakeLists.txt D$:/Clion/Queue/CMakeLists.txt D$:/Clion/Vector/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CMakeLists.txt D$:/Clion/Map/CMakeLists.txt D$:/Clion/PTA/CMakeLists.txt D$:/Clion/PTA/sec1/CMakeLists.txt D$:/Clion/Pair/CMakeLists.txt D$:/Clion/Queue/CMakeLists.txt D$:/Clion/Set/CMakeLists.txt D$:/Clion/Stack/CMakeLists.txt D$:/Clion/String/CMakeLists.txt D$:/Clion/Vector/CMakeLists.txt D$:/Clion/algorithm/CMakeLists.txt: phony
 
 
 #############################################
