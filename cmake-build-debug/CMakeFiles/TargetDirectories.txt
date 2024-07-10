@@ -5,6 +5,7 @@ D:/Clion/cmake-build-debug/Map/CMakeFiles/Find_map.dir
 D:/Clion/cmake-build-debug/Map/CMakeFiles/edit_cache.dir
 D:/Clion/cmake-build-debug/Map/CMakeFiles/rebuild_cache.dir
 D:/Clion/cmake-build-debug/Vector/CMakeFiles/erase_map.dir
+D:/Clion/cmake-build-debug/Vector/CMakeFiles/init_map.dir
 D:/Clion/cmake-build-debug/Vector/CMakeFiles/insert_map.dir
 D:/Clion/cmake-build-debug/Vector/CMakeFiles/iterator_map.dir
 D:/Clion/cmake-build-debug/Vector/CMakeFiles/push_pop_map.dir
@@ -50,3 +51,5 @@ D:/Clion/cmake-build-debug/PTA/sec1/CMakeFiles/codeup_1934_map.dir
 D:/Clion/cmake-build-debug/PTA/sec1/CMakeFiles/codeup_5901_map.dir
 D:/Clion/cmake-build-debug/PTA/sec1/CMakeFiles/edit_cache.dir
 D:/Clion/cmake-build-debug/PTA/sec1/CMakeFiles/rebuild_cache.dir
+D:/Clion/cmake-build-debug/PTA/sec2/CMakeFiles/edit_cache.dir
+D:/Clion/cmake-build-debug/PTA/sec2/CMakeFiles/rebuild_cache.dir
